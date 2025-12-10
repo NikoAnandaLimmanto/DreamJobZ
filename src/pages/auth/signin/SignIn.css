@@ -1,0 +1,47 @@
+/* PAGE LAYOUT */
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f4f6;
+    padding: 20px;
+}
+
+/* Wrapper */
+.auth-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* TITLE */
+.app-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #2b2b2b;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+/* CARD AUTH */
+.auth-card {
+    width: 380px;
+    border-radius: 16px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #e5e7eb;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+.btn-primary:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
